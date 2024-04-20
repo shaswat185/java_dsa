@@ -2,6 +2,10 @@
 
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World!"); 
+        int i =0;
+        while (i<11){
+            System.out.println(i);
+            i=i+1;  //i++
+        }
     }
 }
